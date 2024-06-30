@@ -1,4 +1,4 @@
-from flask import Flask, render_template, url_for, redirect, request
+from flask import Flask
 from flask_jwt_extended import JWTManager
 import os
 from demo.models import db
